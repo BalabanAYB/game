@@ -1,0 +1,89 @@
+body{
+   height: 100%;
+
+   display: flex;
+   justify-content: center;
+
+   background-color: cyan;
+}
+
+.container {
+   width: 60%;
+   height: 690px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   background-color: coral;
+   border: black 2px solid;
+}
+
+.container_card{
+   width: 501px;
+   height: 681px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.card{
+   width: 123px;
+   height: 164px;
+   background-image: url('../img/card-back.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.card_number0{
+   background-image: url('../img/card1.gif');
+}
+
+.card_number1{
+   background-image: url('../img/card2.gif');
+}
+
+.card_number2{
+   background-image: url('../img/card3.gif');
+}
+
+.card_number3{
+   background-image: url('../img/card4.gif');
+}
+
+.card_number4{
+   background-image: url('../img/card5.gif');
+}
+
+.card_number5{
+   background-image: url('../img/card6.gif');
+}
+
+.card_number6{
+   background-image: url('../img/card7.gif');
+}
+
+.card_number7{
+   background-image: url('../img/card8.gif');
+}
+
+.game_over{
+   margin-left: 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   display: none;
+}
+
+.game{
+   display: flex;
+}
+
+.game_over div{
+font-size: 40px;
+}
+
+.button{
+   width: 166px;
+   height: 33px;
+   font-size: 18px;
+   border-radius: 12px;
+}
